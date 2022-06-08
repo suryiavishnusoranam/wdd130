@@ -1,0 +1,46 @@
+.top {
+    background-color: red;
+    width: 700px;
+    height: 50px;
+    text-align: center;
+    margin: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 50px
+}
+
+.middle {
+    background-color: blue;
+    width: 820px;
+    height: 70px;
+    text-align: center;
+    margin: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 70px
+}
+
+.bottom {
+    background-color: green;
+    width: 920px;
+    height: 80px;
+    text-align: center;
+    margin: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 100px
+}
+
+.empty {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+}
+
+.empty2 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin-left: 82%;
+}

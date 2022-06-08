@@ -1,0 +1,22 @@
+#purpleText {
+    font-size: 300%;
+    color:purple
+}
+
+.blueText{
+    color: blue
+}
+
+.email {
+    width: 100%;
+    height: 25px;
+    text-align: left;
+    color: beige;
+}
+.emailUnopened {
+    font-weight: bold;
+}
+.containerDiv {
+    width: 80%;
+    margin: 0 auto;
+}
