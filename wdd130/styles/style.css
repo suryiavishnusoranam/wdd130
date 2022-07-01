@@ -10,9 +10,10 @@ max-width: 1600px;
 
 nav a {
     text-align: center;
-    color: #280000;
+    color: gold;
     text-decoration: none;
     padding: 35px;
+    
 }
 
 #hero-msg h1 {
@@ -49,7 +50,7 @@ body {
 }
 
 header {
-    background-color: #087E8B;
+    
     color: white;
     display: grid;
     grid-template-columns: 150px auto;
@@ -111,7 +112,7 @@ footer {
     color: #0B3954;
     padding: 25px 50px;
     padding-top: 15px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -271,7 +272,6 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    background-color: gray;
 }
 .photo-img1 {
     width: 300x;
@@ -324,9 +324,7 @@ nav {
         display: block;
         margin: 0 auto;
     }
-    footer {
-        margin-top: 25px;
-    }
+ 
 }
             
              
