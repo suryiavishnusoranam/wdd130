@@ -1,10 +1,12 @@
 .home_img{
     width: 100%;
     margin-top: -22px;
+    
 }
 
 .logo_img{
-    width: 80px;
+    width: 117px;
+    height: 117px;
 }
 
 header{
@@ -30,10 +32,14 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: pink;
+    align-items: center;
+    height: 130px;
+
 }
 
 footer > h3{
     color: black;
+    text-align: center;
 }
 
 body{
