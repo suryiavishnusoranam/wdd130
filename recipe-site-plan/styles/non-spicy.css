@@ -1,6 +1,7 @@
 #homegrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 50px;
 }
 
 h1{
@@ -12,10 +13,6 @@ h1{
 .imgpage2{
     width: 100%;
     height: 95%;
-}
-
-h2{
-    text-align: center;
 }
 
 .div1{
@@ -46,8 +43,8 @@ header{
     height: 120px;
 }
 
-li{
-    text-align: center;
+ul{
+    text-align: left;
 }
 
 .div4{

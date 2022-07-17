@@ -1,0 +1,135 @@
+#homegrid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 50px;
+}
+
+h1{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+h3{
+    color: black;
+}
+.text3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.pic1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+}
+
+.text2{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    padding-left: 5px;
+}
+
+.pic2{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.textp3b{
+    grid-column: 1/3;
+    padding-left: 5px;
+}
+
+.textp3a{
+    padding-left: 5px;
+}
+
+.upper{
+    list-style-type: disc;
+    padding: 40px;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 100%;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    grid-column: 1/3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 300px;
+    
+    
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 80%;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 60em;
+  }
+  #feedback {
+    background-color: antiquewhite;
+    grid-column: 1/3;
+    grid-row: 6/7;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+ }
+ .moveDown {
+    margin-top: 3em;
+ }
